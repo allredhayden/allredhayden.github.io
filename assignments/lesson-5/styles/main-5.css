@@ -1,0 +1,114 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "bookman", "serif";
+    font-size: 16px;
+    max-width: 90%;
+    max-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header { 
+    color: #272783;
+}
+
+nav, main, footer { 
+    color: #BB7921;
+    max-width: 2048px;
+    margin: auto;
+}
+
+header {}
+header h1 {}
+header img {}
+header .subheading {}
+
+nav {}
+nav button {}
+nav ul {
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: #BB9421;
+    width: 0 auto;
+}
+nav ul li {}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+nav ul li.active a {}
+nav ul li a:hover {
+    background-color: #BBAD21;
+}
+
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { 
+    width: 30%;
+    height: 45%;
+}
+
+section.forecast {
+    display: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: separate;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    max-width: 100%;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+th, td{
+    /*height: 50px;*/
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+article p.town-article img {
+  width: 100%;
+    height: 100%;
+  margin: auto%;
+    padding: 15px;
+    clear: both
+}
+
+footer {
+    font-size: smaller;
+    clear: both;
+}
+footer aside {
+    padding: 15px;
+    text-align: center;
+    background-color: #BB9421;
+    color: #272783;
+}
+footer>p {
+    padding: 15px;
+    background-color: #BB7921;
+    color: black;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
